@@ -1,0 +1,64 @@
+@CHARSET "ISO-8859-1";
+
+
+* {
+ 	margin:0;
+ 	padding:0;   
+ 	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+}
+.header{
+	background-color:#034078;
+	color:white;
+	padding:10px 0 10px 140px ;
+	font-size:20px;
+}
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin:100px auto;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fff;
+        }
+		input{
+			width:70%;
+			MARGIN:0 auto;
+			outline:none;
+			padding:8px;
+		}
+        input[type="submit"], input[type="reset"] {
+            background-color: #4caf50;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+            width:fit-content;
+        }
+
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            background-color: #45a049;
+        }
+
+        p.success {
+            color: green;
+            background-color:#fdffb6;
+        }
+
+        p.error {
+            color: red;
+        }

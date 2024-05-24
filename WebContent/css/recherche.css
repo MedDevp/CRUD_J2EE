@@ -1,0 +1,111 @@
+
+* {
+ 	margin:0;
+ 	padding:0;   
+ 	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+}
+.header{
+	background-color:#034078;
+	color:white;
+	padding:10px 0 10px 140px ;
+	font-size:20px;
+}
+.titleone{
+	background-color:#80ed99;
+	text-align:center;
+	font-size:16px;
+	padding:10px 0;
+}
+form label{
+	font-size:20px;
+}
+.content{
+		width:80%;
+		margin:0 auto;
+}
+hr {
+    border: none; 
+    height: 1px; 
+    background-color: gray; 
+    margin: 20px 0; 
+}
+
+.content h1{
+	font-size:18px;
+}
+form{
+	with:100%;
+	height:100px;
+	margin:50px 0 ;
+}
+form label{
+	font-size:18px;
+	margin-top:17px;
+}
+input{
+	outline:none;
+}
+form input{
+	width:100%;
+	padding:5px;
+	
+}
+form button{
+	background-color:#1282a2;
+	color:white;
+	padding:8px 12px;
+	border:none;
+	margin:20px 0 70px;
+}
+table{
+	    border-spacing: 0;
+	    margin:20px 0;
+}
+th{
+	background-color:black;
+	color:white;
+	padding:8px;
+	font-weight:700;
+}
+td {
+    border-bottom: 1px solid gray;
+    padding:15pX 8px;
+    text-align:center;
+}
+tr:nth-child(odd) {
+    background-color: #f5f3f4;
+    color: black;
+}
+
+tr:nth-child(even) {
+}
+a{
+	text-decoration:none;
+}
+.modifier{
+	background-color:orange;
+	color:white;
+		font-weight:600;
+		padding:8px 15px;
+		margin:0 10px;
+}
+.supprimer{
+	background-color:red;
+	color:white;
+		font-weight:600;
+		padding:8px 15px;
+
+}
+.supp{
+	margin-bottom:20px;
+	padding-left:100px;
+	
+}
+.ajoutbtn{
+		background-color:green;
+	color:white;
+		font-weight:600;
+		padding:8px 15px;
+		margin:60px 0;
+}
